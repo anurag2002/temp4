@@ -46,7 +46,7 @@ app.get("/eclipse_review", (req, res) => res.sendFile(__dirname + "/eclipse_revi
 app.get("/harrypotter_sorcerer_stone", (req, res) => res.sendFile(__dirname + "/harrypotter_sorcerer_stone.html"));
 app.get("/list_of_books", (req, res) => res.sendFile(__dirname + "/list_of_books.html"));
 app.get("/order_of_phoneix", (req, res) => res.sendFile(__dirname + "/order_of_phoneix.html"));
-app.get("/philosopher's_stone", (req, res) => res.render("sendFile__dirname + '/s_stone.html"));
+app.get("/philosopher's_stone", (req, res) => res.sendFile(__dirname + "/philosopher's_stone.html"));
 app.get("/relativity", (req, res) => res.sendFile(__dirname + "/relativity.html"));
 app.get("/twilight_review", (req, res) => res.sendFile(__dirname + "/twilight_review.html"));
 
