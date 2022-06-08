@@ -37,7 +37,7 @@ app.get("/", (req, res) => res.render("index"));
 
 
 app.get("/register", (req, res) => res.sendFile(__dirname + "/views/registration_page.html"));
-app.get('/home', (req, res) => res.sendFile(__dirname + "/views/home.html"));
+app.get('/home', (req, res) => res.sendFile(__dirname + "home"));
 app.get("/1984", (req, res) => res.sendFile(__dirname + "/views/1984.html"));
 app.get("/chamber_of_secret", (req, res) => res.sendFile(__dirname + "/views/chamber_of_secret.html"));
 app.get("/diary_of_a_young_girl", (req, res) => res.sendFile(__dirname + "/views/diary_of_a_young_girl.html"));
