@@ -41,7 +41,7 @@ const loginUser = (async(req, res) => {
     const user = await User.findOne({ email });
 
     if (user && password === user.password) {
-        return res.redirect('/home.html');
+        return res.redirect('/home');
     } else {
         return res.redirect('/');
     }
