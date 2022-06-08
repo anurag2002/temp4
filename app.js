@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 const mongoose = require('mongoose');
 const path = require("path");
 const UserRoutes = require("./routes/userRoutes")
-const DB = "mongodb+srv://anurag2002:9810541660@minorprojectg9.cxzyv.mongodb.net/?retryWrites=true&w=majority";
+const DB = "mongodb+srv://anshik009:1915009@minorprojectg9.cxzyv.mongodb.net/?retryWrites=true&w=majority";
 
 const connectDB = async() => {
     try {
