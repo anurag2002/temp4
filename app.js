@@ -31,7 +31,7 @@ app.use(express.static(path.join(__dirname)));
 // app.use(express.static(path.join(__dirname, "views")));
 
 //Rendering Embedded JavaScript
-app.get("/", (req, res) => res.sendFile(__dirname + "index"));
+app.get("/", (req, res) => res.sendFile(__dirname + "/index.html"));
 
 // app.set('views', path.join(__dirname, ''));
 
