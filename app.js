@@ -36,7 +36,7 @@ app.get("/", (req, res) => res.sendFile(__dirname + "/index.html"));
 // app.set('views', path.join(__dirname, ''));
 
 
-app.get("/register", (req, res) => res.sendFile(__dirname + "/registration_page"));
+app.get("/register", (req, res) => res.sendFile(__dirname + "/registration_page.html"));
 app.get('/home', (req, res) => res.sendFile(__dirname + "/home.html"));
 app.get("/1984", (req, res) => res.sendFile(__dirname + "/1984.html"));
 app.get("/chamber_of_secret", (req, res) => res.sendFile(__dirname + "/chamber_of_secret.html"));
