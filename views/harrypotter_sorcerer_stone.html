@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Books Review Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./Books Review/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="/home" class="logo"> <i class="fas fa-book"></i> All About Books </a>
+            <!-- 'we will add the home page address here' -->
+
+            <!-- <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form> -->
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search" style="display:none;"></div>
+                <a href="#" class="fas fa-heart" style="display: none;"></a>
+                <a href="#" class="fas fa-shopping-cart" style="display: none;"></a>
+                <div id="login-btn" class="fas fa-user" style="display:none;"></div>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="/home">home</a>
+                <a href="/list_of_books">featured</a>
+                <a href="/home#arrivals">arrivals</a>
+                <a href="#reviews">reviews</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+        <a href="/home" class="fas fa-home"></a>
+        <a href="/list_of_books" class="fas fa-list"></a>
+        <a href="/home#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <!-- <a href="#blogs" class="fas fa-blog"></a> -->
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="row">
+
+
+            <div class="book-image">
+                <img src="./image/book-3.jpg" class="stand" alt="">
+            </div>
+
+            <div class="content">
+                <h2>Harry Potter and the Sorcerer's Stone</h2>
+                <h3>J.K. Rowling</h3>
+                <h4>About the book:</h4>
+                <p>
+                    Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his
+                    eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school and with the help of his friends, he faces an
+                    attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old.
+                </p>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- arrivals section starts  -->
+
+    <section class="arrivals" id="arrivals">
+
+        <h1 class="heading"> <span>Popular Books</span> </h1>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="/eclipse_review" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Eclipse</h3>
+                        <div class="price">₹1399 <span>₹1999</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/twilight_review" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Twilight</h3>
+                        <div class="price">₹1399 <span>₹1999</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/harrypotter_sorcerer_stone" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Harry Potter and the Sorcerers Stone</h3>
+                        <div class="price">₹1399 <span>₹1999</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/chamber_of_secret" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Harry Potter and the Chamber of Secrets</h3>
+                        <div class="price">₹1399 <span>₹1999</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/philosopher's_stone" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Harry Potter and the Philosopher's Stone</h3>
+                        <div class="price">₹1399 <span>₹1999</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="/order_of_phoneix" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Harry Potter and the Order of the Phoneix</h3>
+                        <div class="price">₹1399 <span>₹1999</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/dune" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Dune</h3>
+                        <div class="price">₹1399 <span>₹1999</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/diary_of_a_young_girl" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-8.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>The Diary of a Young Girl</h3>
+                        <div class="price">₹1399 <span>₹1999</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/1984" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-9.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>1984</h3>
+                        <div class="price">₹1399 <span>₹1999</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/relativity" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-10.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Relativity</h3>
+                        <div class="price">₹1399 <span>₹1999</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- arrivals section ends -->
+
+
+    <!-- reviews section starts  -->
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading"> <span>client's reviews</span> </h1>
+
+        <div class="swiper reviews-slider">
+
+            <!-- <div class="swiper-wrapper"> -->
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.jpeg" alt="">
+                <h3>Anurag Pandey</h3>
+                <p>Best site ever</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <h3>Anshik Thakur</h3>
+                <p>Good reviews</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <!-- <i class="fas fa-star"></i> -->
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- reviews section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="/home"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="/list_of_books"> <i class="fas fa-arrow-right"></i> featured </a>
+                <a href="/home#arrivals"> <i class="fas fa-arrow-right"></i> arrivals </a>
+                <a href="#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
+                <!-- <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a> -->
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+                <!-- <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a> -->
+                <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +91 9501 555 147 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +91 7973 990 693 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> thakuranshik5555@gmail.com </a>
+                <img src="image/worldmap.png" class="map" alt="">
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+
+        <div class="credit"> created by <span>Group 9 CSE</span></div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./Books Review/script.js"></script>
+
+</body>
+
+</html>
