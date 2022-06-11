@@ -24,7 +24,7 @@ const registerUser = async(req, res) => {
     });
 
     if (user) {
-        return res.sendFile(__dirname + '/index.html');
+        return res.redirect('/');
     } else {
         res.status(400);
         // throw new Error("Invalid user data");
