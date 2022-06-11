@@ -37,7 +37,7 @@ input[type=password] {
     text-transform: none; */
 }
 
-button {
+#login {
     background-color: #613b02a1;
     color: white;
     padding: 14px 20px;
