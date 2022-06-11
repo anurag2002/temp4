@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'minorProjectG9'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DC5ACABF462B49C18EC8372133A5C05E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_86D07084B4C646FF8CC361FD3B632D6E }}
           package: .
